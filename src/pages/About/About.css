@@ -1,0 +1,20 @@
+/* About Styling */
+
+#about-page {
+    background-color: #EFEFEF;
+    margin: 0;
+    padding: 0;
+    min-height: 100vh;
+  }
+  
+  
+  
+  /* .column {
+    border: .2em solid black;
+  } */
+  
+  .about-topic {
+    text-align: right;
+  }
+  
+  

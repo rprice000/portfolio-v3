@@ -1,0 +1,27 @@
+/* Resume page Styling */
+
+#resume-page {
+    background-color: #EFEFEF;
+    margin: 0;
+    padding: 0;
+    min-height: 100vh;
+  }
+
+  #resume-hero {
+    margin-bottom: 200px;
+  }
+
+  #resume-col-1 {
+    height: 500px;
+    padding: 0px;
+  }
+
+  #resume-col-2{
+    height: 500px;
+    padding: 0px;
+  }
+
+  #resume-card-title{
+    height: 500px;
+    width: 100%;
+  }
