@@ -8,7 +8,7 @@ import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 // Component and CSS Imports
 import '../About/About.css'
-import ParticleBackground from '../../components/Background/ParticleBackground';
+import ParticleBackground from '../../components/Particles/ParticleBackground';
 
 
 
