@@ -1,19 +1,18 @@
 import React from 'react';
-import { Nav, Navbar } from 'react-bootstrap';
+
 
 function NavLinks(props) {
   const tabs = [ 'About', 'Portfolio', 'Resume', 'Contact'];
 
   return (
 
-      <Navbar expand="lg">
+     
 
-        <Navbar.Toggle />
-        <Navbar.Collapse className='justify-content-end pe-5'>
-        <Nav variant="pills" defaultActiveKey="/about">
+     <div>
+       <ul>
         {tabs.map((tab) => (
-          <Nav.Item className='ps-5 pe-5' key={tab}>
-            <Nav.Link
+          <li key={tab}>
+            <a
               href={"#" + tab.toLowerCase()}
               onClick={() => props.handlePageChange(tab)}
               className={
@@ -21,13 +20,12 @@ function NavLinks(props) {
               }
             >
               {tab}
-            </Nav.Link>
-          </Nav.Item>
+            </a>
+          </li>
         ))}
-        </Nav>
-        </Navbar.Collapse>
-      </Navbar>
-
+        </ul>
+        </div>
+    
   );
 
 
