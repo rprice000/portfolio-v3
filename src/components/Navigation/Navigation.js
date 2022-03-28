@@ -23,7 +23,7 @@ const Navigation = () => {
               
                <Navbar.Toggle />
                <Navbar.Collapse className='justify-content-end pe-5'>
-                    <Nav variant="pills" defaultActiveKey="/about">
+                    <Nav defaultActiveKey="/about">
                        <Nav.Item className='ps-5 pe-5'>
                         <Nav.Link href="about"> <FiBookOpen /> About</Nav.Link>
                        </Nav.Item>
