@@ -2,7 +2,9 @@ import React, { useState } from 'react';
 
 
 
-import NavTabs from './index';
+import Header from '../Header/Header';
+import '../Navigation/Navigation.css'
+import NavLinks from './index';
 import About from '../../pages/About/About';
 import Portfolio from '../../pages/Portfolio/Portfolio';
 import Contact from '../../pages/Contact/Contact';
@@ -24,14 +26,19 @@ function NavigatePortfolio() {
   };
 
   return (
+
     <div>
-      <NavTabs currentPage={currentPage} handlePageChange={handlePageChange} />
-      <div>
-        {
-          // Render the component returned by 'renderPage()'
-          renderPage()
-          //
-        }
+      <div id="navbackground">
+        <Header />
+
+        <NavLinks currentPage={currentPage} handlePageChange={handlePageChange} />
+        <div>
+          {
+            // Render the component returned by 'renderPage()'
+            renderPage()
+            //
+          }
+        </div>
       </div>
     </div>
   );
