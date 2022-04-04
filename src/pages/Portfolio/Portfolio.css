@@ -14,6 +14,8 @@
       animation: gradient 15s ease infinite;
       width: 100%;
       height: 50vh;
+      color:#EFEFEF;
+      text-shadow: 3px 3px 3px black;
   }
   
   @keyframes gradient {
@@ -36,7 +38,7 @@
   .cards {
     box-shadow: 0 15px 60px rgba(0, 0, 0, 0.5);
     background-color: black;
-    width: 300px;
+    width: 700px;
     height: 400px;
     border-radius: 15px;
     color: white;
@@ -62,6 +64,8 @@
   
   .cards .card-content-spacing.card-cover {
     transition: 0.5s;
+    color:#EFEFEF;
+    text-shadow: 3px 3px 3px black;
   }
   
   .cards:hover .card-content-spacing.card-cover {
@@ -72,11 +76,11 @@
     font-size: 1.5em;
   }
   
-  .cards:nth-child(1) .card-content-spacing.card-cover {
+  .cards .card-content-spacing.card-cover {
     border-radius: 15px;
-    background-image: url('../../assets/images/image-run.JPG');
-    background-repeat: no-repeat;
-    background-position: center;
+    background: linear-gradient(-45deg,rgb(231, 190, 100), #ee7752, #e73c7e, #23d5ab, #23a6d5, purple, black);
+    animation: gradient 15s ease infinite;
+    background-size: 400% 400%;
   }
   
   

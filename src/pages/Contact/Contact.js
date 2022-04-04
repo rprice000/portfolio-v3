@@ -1,60 +1,79 @@
 // This is the contact page
-import React from 'react';
+import React, { useState } from 'react';
 
-import '../Contact/Contact.css'
+
+
+
+// Component Imports
+import InputField from '../../components/Form/InputField';
+import TextAreaField from '../../components/Form/TextAreaField';
+// Styling Imports
+import { Container} from 'react-bootstrap';
+import '../Contact/Contact.css';
+
+// import emailjs from '@emailjs/browser';
+import emailjs from 'emailjs-com';
 
 const Contact = () => {
+
+  const [values, setValues] = useState({
+    fullName: '',
+    email: '',
+    message: ''
+  });
+ 
+
+  const handleSubmit = (e) => {
+    e.preventDefault();
+    emailjs.send('service_q7mwdrq', 'portfolio_email', values, 'BRgX1YNBzyInCGnUC')
+    .then(response => {
+      console.log("SUCCESS!", response);
+      setValues({
+        fullName: '',
+        email: '',
+        message: ''
+      });
+    }, error => {
+      console.log('FAILED...', error);
+    })
+  }
+
+  const handleChange= (e) => {
+    setValues(values => ({
+      ...values,
+      [e.target.name]: e.target.value
+    }))
+  }
+
     return (
       <div id="contact-page">
-        <h1>Contact Page</h1>
-        <p>
-          Lorem Ipsum is simply dummy text 
-          of the printing and typesetting industry. 
-          Lorem Ipsum has been the industry's 
-          standard dummy text ever since the 1500s, 
-          when an unknown printer took a galley of 
-          type and scrambled it to make a type 
-          specimen book. It has survived not only 
-          five centuries, but also the leap into 
-          electronic typesetting, remaining essentially 
-          unchanged. It was popularised in the 1960s 
-          with the release of Letraset sheets containing 
-          Lorem Ipsum passages, and more recently with 
-          desktop publishing software like Aldus PageMaker 
-          including versions of Lorem Ipsum.
-        </p>
-        <p>
-          Lorem Ipsum is simply dummy text 
-          of the printing and typesetting industry. 
-          Lorem Ipsum has been the industry's 
-          standard dummy text ever since the 1500s, 
-          when an unknown printer took a galley of 
-          type and scrambled it to make a type 
-          specimen book. It has survived not only 
-          five centuries, but also the leap into 
-          electronic typesetting, remaining essentially 
-          unchanged. It was popularised in the 1960s 
-          with the release of Letraset sheets containing 
-          Lorem Ipsum passages, and more recently with 
-          desktop publishing software like Aldus PageMaker 
-          including versions of Lorem Ipsum.
-        </p>
-        <p>
-          Lorem Ipsum is simply dummy text 
-          of the printing and typesetting industry. 
-          Lorem Ipsum has been the industry's 
-          standard dummy text ever since the 1500s, 
-          when an unknown printer took a galley of 
-          type and scrambled it to make a type 
-          specimen book. It has survived not only 
-          five centuries, but also the leap into 
-          electronic typesetting, remaining essentially 
-          unchanged. It was popularised in the 1960s 
-          with the release of Letraset sheets containing 
-          Lorem Ipsum passages, and more recently with 
-          desktop publishing software like Aldus PageMaker 
-          including versions of Lorem Ipsum.
-        </p>
+
+
+          <section id="contact-hero" className="mb-5 d-flex justify-content-around align-items-center">
+                        <h1>
+                            Contact Info
+                        </h1>
+                        <h3>
+                            I am open to web development jobs and projects. <br></br>
+                            If my portfolio has caught your attention. <br></br>
+                            Please reach out to me.
+                        </h3>
+          </section>
+
+
+          <Container>
+            <form onSubmit={handleSubmit}>
+              <InputField handleChange={handleChange} label="Full Name" name="fullName" type="text" placeholder="John Doe"/>
+              <InputField handleChange={handleChange} label="E-mail" name="email" tyep="email" placeholder="john@example.com"/>
+              <TextAreaField handleChange={handleChange} label="Your Message Here" name="message" />
+              <button type="Submit">Send</button>
+            </form>
+          </Container>
+
+
+
+
+
       </div>
     )
 }
