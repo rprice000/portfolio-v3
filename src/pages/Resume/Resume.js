@@ -27,7 +27,7 @@ const Resume = () => {
                        <Carousel />
                         
                     </Col>
-                    </Row>
+                </Row>
             </Container>
 
             <Container fluid className="mt-5">

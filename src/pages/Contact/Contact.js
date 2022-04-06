@@ -1,49 +1,19 @@
 // This is the contact page
-import React, { useState } from 'react';
+import React from 'react';
 
+import { Card, Row, Col, ListGroup } from 'react-bootstrap';
 
 
 
 // Component Imports
-import InputField from '../../components/Form/InputField';
-import TextAreaField from '../../components/Form/TextAreaField';
+import ContactForm from '../../components/Form/ContactForm';
 // Styling Imports
 import { Container} from 'react-bootstrap';
 import '../Contact/Contact.css';
 
-// import emailjs from '@emailjs/browser';
-import emailjs from 'emailjs-com';
 
 const Contact = () => {
 
-  const [values, setValues] = useState({
-    fullName: '',
-    email: '',
-    message: ''
-  });
- 
-
-  const handleSubmit = (e) => {
-    e.preventDefault();
-    emailjs.send('service_q7mwdrq', 'portfolio_email', values, 'BRgX1YNBzyInCGnUC')
-    .then(response => {
-      console.log("SUCCESS!", response);
-      setValues({
-        fullName: '',
-        email: '',
-        message: ''
-      });
-    }, error => {
-      console.log('FAILED...', error);
-    })
-  }
-
-  const handleChange= (e) => {
-    setValues(values => ({
-      ...values,
-      [e.target.name]: e.target.value
-    }))
-  }
 
     return (
       <div id="contact-page">
@@ -62,12 +32,45 @@ const Contact = () => {
 
 
           <Container>
-            <form onSubmit={handleSubmit}>
-              <InputField handleChange={handleChange} label="Full Name" name="fullName" type="text" placeholder="John Doe"/>
-              <InputField handleChange={handleChange} label="E-mail" name="email" tyep="email" placeholder="john@example.com"/>
-              <TextAreaField handleChange={handleChange} label="Your Message Here" name="message" />
-              <button type="Submit">Send</button>
-            </form>
+            <ContactForm />
+
+          <Card >
+              <h2 className='d-flex justify-content-center' style={{margin: "25px"}}>Contact Info</h2>
+              <Row>
+                    <Col className='d-flex justify-content-center'>
+                      <ListGroup variant="flush">
+                        <ListGroup.Item className='d-flex justify-content-center'><h3>Email</h3></ListGroup.Item>
+                        <ListGroup.Item className='d-flex justify-content-center'>email symbol</ListGroup.Item>
+                        <ListGroup.Item className='d-flex justify-content-center'>rtprice21@gmail.com</ListGroup.Item>
+                      </ListGroup>
+                    </Col>
+
+                    <Col className='d-flex justify-content-center'>
+                      <ListGroup variant="flush">
+                        <ListGroup.Item className='d-flex justify-content-center'><h3>Phone Number</h3></ListGroup.Item>
+                        <ListGroup.Item className='d-flex justify-content-center'>Phone Number symbol</ListGroup.Item>
+                        <ListGroup.Item className='d-flex justify-content-center'>512.993.9362</ListGroup.Item>
+                      </ListGroup>
+                    </Col>
+
+                    <Col className='d-flex justify-content-center'> 
+                      <ListGroup variant="flush">
+                        <ListGroup.Item className='d-flex justify-content-center'><h3>GitHub</h3></ListGroup.Item>
+                        <ListGroup.Item className='d-flex justify-content-center'>GitHub symbol</ListGroup.Item>
+                        <ListGroup.Item className='d-flex justify-content-center'>https://github.com/rprice000</ListGroup.Item>
+                      </ListGroup>
+                    </Col>
+
+                    <Col className='d-flex justify-content-center'> 
+                      <ListGroup variant="flush">
+                        <ListGroup.Item className='d-flex justify-content-center'><h3>LinkedIn</h3></ListGroup.Item>
+                        <ListGroup.Item className='d-flex justify-content-center'>LinkedIn symbol</ListGroup.Item>
+                        <ListGroup.Item className='d-flex justify-content-center'>www.linkedin.com/in/reagan-price-967a25101</ListGroup.Item>
+                      </ListGroup>
+                    </Col>
+
+                </Row>
+          </Card>
           </Container>
 
 
@@ -77,5 +80,6 @@ const Contact = () => {
       </div>
     )
 }
+
 
 export default Contact;
