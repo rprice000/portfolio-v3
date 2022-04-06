@@ -37,11 +37,11 @@ const Contact = () => {
 
 
           <Container>
-            <ContactForm />
+            <ContactForm id="contact-form" />
 
-          <Card >
+          <Card id="contact-info" >
               <h2 className='d-flex justify-content-center' style={{margin: "25px"}}>Contact Info</h2>
-              <Row>
+           
                     <Col className='d-flex justify-content-center'>
                       <ListGroup variant="flush">
                         <ListGroup.Item className='d-flex justify-content-center'><h3>Email</h3></ListGroup.Item>
@@ -73,15 +73,9 @@ const Contact = () => {
                         <ListGroup.Item className='d-flex justify-content-center'>www.linkedin.com/in/reagan-price-967a25101</ListGroup.Item>
                       </ListGroup>
                     </Col>
-
-                </Row>
+               
           </Card>
           </Container>
-
-
-
-
-
       </div>
     )
 }
