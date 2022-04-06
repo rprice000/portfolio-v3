@@ -11,6 +11,11 @@ import ContactForm from '../../components/Form/ContactForm';
 import { Container} from 'react-bootstrap';
 import '../Contact/Contact.css';
 
+import { MdEmail } from "react-icons/md";
+import { FaPhoneSquareAlt } from "react-icons/fa";
+import { AiFillLinkedin } from "react-icons/ai";
+import { FaGithub } from "react-icons/fa";
+
 
 const Contact = () => {
 
@@ -40,7 +45,7 @@ const Contact = () => {
                     <Col className='d-flex justify-content-center'>
                       <ListGroup variant="flush">
                         <ListGroup.Item className='d-flex justify-content-center'><h3>Email</h3></ListGroup.Item>
-                        <ListGroup.Item className='d-flex justify-content-center'>email symbol</ListGroup.Item>
+                        <ListGroup.Item className='d-flex justify-content-center'><a href="mailto: rtprice21@gmail.com"><MdEmail /></a></ListGroup.Item>
                         <ListGroup.Item className='d-flex justify-content-center'>rtprice21@gmail.com</ListGroup.Item>
                       </ListGroup>
                     </Col>
@@ -48,7 +53,7 @@ const Contact = () => {
                     <Col className='d-flex justify-content-center'>
                       <ListGroup variant="flush">
                         <ListGroup.Item className='d-flex justify-content-center'><h3>Phone Number</h3></ListGroup.Item>
-                        <ListGroup.Item className='d-flex justify-content-center'>Phone Number symbol</ListGroup.Item>
+                        <ListGroup.Item className='d-flex justify-content-center'><a href="tel:512.993.9362"><FaPhoneSquareAlt /></a></ListGroup.Item>
                         <ListGroup.Item className='d-flex justify-content-center'>512.993.9362</ListGroup.Item>
                       </ListGroup>
                     </Col>
@@ -56,7 +61,7 @@ const Contact = () => {
                     <Col className='d-flex justify-content-center'> 
                       <ListGroup variant="flush">
                         <ListGroup.Item className='d-flex justify-content-center'><h3>GitHub</h3></ListGroup.Item>
-                        <ListGroup.Item className='d-flex justify-content-center'>GitHub symbol</ListGroup.Item>
+                        <ListGroup.Item className='d-flex justify-content-center'><a href="https://github.com/rprice000"><FaGithub /></a></ListGroup.Item>
                         <ListGroup.Item className='d-flex justify-content-center'>https://github.com/rprice000</ListGroup.Item>
                       </ListGroup>
                     </Col>
@@ -64,7 +69,7 @@ const Contact = () => {
                     <Col className='d-flex justify-content-center'> 
                       <ListGroup variant="flush">
                         <ListGroup.Item className='d-flex justify-content-center'><h3>LinkedIn</h3></ListGroup.Item>
-                        <ListGroup.Item className='d-flex justify-content-center'>LinkedIn symbol</ListGroup.Item>
+                        <ListGroup.Item className='d-flex justify-content-center'><a href="www.linkedin.com/in/reagan-price-967a25101"><AiFillLinkedin /></a></ListGroup.Item>
                         <ListGroup.Item className='d-flex justify-content-center'>www.linkedin.com/in/reagan-price-967a25101</ListGroup.Item>
                       </ListGroup>
                     </Col>
