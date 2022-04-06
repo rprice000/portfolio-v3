@@ -24,57 +24,78 @@ const Contact = () => {
       <div id="contact-page">
 
 
-          <section id="contact-hero" className="mb-5 d-flex justify-content-around align-items-center">
-                        <h1>
-                            Contact Info
-                        </h1>
-                        <h3>
-                            I am open to web development jobs and projects. <br></br>
-                            If my portfolio has caught your attention. <br></br>
-                            Please reach out to me.
-                        </h3>
+          <section id="contact-hero" className="mb-5 d-flex flex-column justify-content-around align-items-center">
+                        <div id="headshot">
+                            
+                        </div>
+                      
+                        <h3>I am open to web development jobs and projects.</h3>
+                        <h3>If my portfolio has caught your attention.</h3>
+                        <h3> Please reach out to me.</h3>
+                        <Container>
+                        <ul class="circles">
+                          <li></li>
+                          <li></li>
+                          <li></li>
+                          <li></li>
+                          <li></li>
+                          <li></li>
+                          <li></li>
+                          <li></li>
+                          <li></li>
+                          <li></li>
+                        </ul>
+                        </Container>
           </section>
 
 
           <Container>
             <ContactForm id="contact-form" />
 
-          <Card id="contact-info" >
-              <h2 className='d-flex justify-content-center' style={{margin: "25px"}}>Contact Info</h2>
-           
-                    <Col className='d-flex justify-content-center'>
+          <section id="contact-info">
+              <h2 className='d-flex justify-content-center' style={{marginBottom: "30px"}}>Contact Info</h2>
+              <Row>
+                    <Col>
+                    <Card style={{height: "30vh"}} className='d-flex justify-content-center align-items-center'>
                       <ListGroup variant="flush">
                         <ListGroup.Item className='d-flex justify-content-center'><h3>Email</h3></ListGroup.Item>
-                        <ListGroup.Item className='d-flex justify-content-center'><a href="mailto: rtprice21@gmail.com"><MdEmail /></a></ListGroup.Item>
+                        <ListGroup.Item className='d-flex justify-content-center'><a href="mailto: rtprice21@gmail.com"><MdEmail id="mail-icon" /></a></ListGroup.Item>
                         <ListGroup.Item className='d-flex justify-content-center'>rtprice21@gmail.com</ListGroup.Item>
                       </ListGroup>
+                      </Card>
                     </Col>
 
-                    <Col className='d-flex justify-content-center'>
+                    <Col>
+                    <Card style={{height: "30vh"}} className='d-flex justify-content-center align-items-center'>
                       <ListGroup variant="flush">
                         <ListGroup.Item className='d-flex justify-content-center'><h3>Phone Number</h3></ListGroup.Item>
-                        <ListGroup.Item className='d-flex justify-content-center'><a href="tel:512.993.9362"><FaPhoneSquareAlt /></a></ListGroup.Item>
+                        <ListGroup.Item className='d-flex justify-content-center'><a href="tel:512.993.9362"><FaPhoneSquareAlt id="phone-icon" /></a></ListGroup.Item>
                         <ListGroup.Item className='d-flex justify-content-center'>512.993.9362</ListGroup.Item>
                       </ListGroup>
+                      </Card>
                     </Col>
 
-                    <Col className='d-flex justify-content-center'> 
+                    <Col>
+                    <Card style={{height: "30vh"}} className='d-flex justify-content-center align-items-center'> 
                       <ListGroup variant="flush">
                         <ListGroup.Item className='d-flex justify-content-center'><h3>GitHub</h3></ListGroup.Item>
-                        <ListGroup.Item className='d-flex justify-content-center'><a href="https://github.com/rprice000"><FaGithub /></a></ListGroup.Item>
+                        <ListGroup.Item className='d-flex justify-content-center'><a href="https://github.com/rprice000"><FaGithub id="github-icon" /></a></ListGroup.Item>
                         <ListGroup.Item className='d-flex justify-content-center'>https://github.com/rprice000</ListGroup.Item>
                       </ListGroup>
+                      </Card>
                     </Col>
 
-                    <Col className='d-flex justify-content-center'> 
+                    <Col>
+                    <Card style={{height: "30vh"}} className='d-flex justify-content-center align-items-center'> 
                       <ListGroup variant="flush">
                         <ListGroup.Item className='d-flex justify-content-center'><h3>LinkedIn</h3></ListGroup.Item>
-                        <ListGroup.Item className='d-flex justify-content-center'><a href="www.linkedin.com/in/reagan-price-967a25101"><AiFillLinkedin /></a></ListGroup.Item>
+                        <ListGroup.Item className='d-flex justify-content-center'><a href="www.linkedin.com/in/reagan-price-967a25101"><AiFillLinkedin id="linkedin-icon" /></a></ListGroup.Item>
                         <ListGroup.Item className='d-flex justify-content-center'>www.linkedin.com/in/reagan-price-967a25101</ListGroup.Item>
                       </ListGroup>
+                      </Card>
                     </Col>
-               
-          </Card>
+                </Row>
+          </section>
           </Container>
       </div>
     )
