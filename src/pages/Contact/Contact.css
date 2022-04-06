@@ -14,6 +14,7 @@
     width: 100%;
     height: 55vh;
     color:#EFEFEF;
+    text-shadow: 3px 3px 3px rgb(129, 127, 127);
 }
 
 
@@ -44,19 +45,12 @@
   background-image: url("../../assets/images/image-headshot.jpg");
   background-size: cover;
   border-radius: 150px;
-  border: 2px solid #73AD21;
+  border: 2px solid #fbfbfb;
 }
 
-@import url('https://fonts.googleapis.com/css?family=Exo:400,700');
 
-/* .area{
-    background: #000000;  
-    background: -webkit-linear-gradient(to left, #dedfee, #3f3f46);  
-    width: 100%;
-    height:100vh;
-    
-   
-} */
+
+@import url('https://fonts.googleapis.com/css?family=Exo:400,700');
 
 .circles{
     top: 0;
