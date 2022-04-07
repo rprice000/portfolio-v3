@@ -56,12 +56,10 @@ const Portfolio = () => {
                                         <Card.Body>
                                             <Card.Title className="card-text-responsive">Project: Taskinator  </Card.Title>
                                             <Card.Text className="card-text-responsive">
-                                                APIs allow web developers to create dynamic, interactive web applications. 
-                                                Sometimes an API lets us interact with the page more easily. This project
-                                                uses APIs built directly into the browser, beginning with the Document Object Model, 
-                                                or DOM. The taskinator project is building a task-tracker. Taskinator will allows individuals 
-                                                to organize their personal to-do list items by using a dropdown menu to change the task status 
-                                                and move the task into To Do, In Progress, and Completed lists. For more information please 
+                                                This project uses APIs built directly into the browser. The taskinator project is
+                                                a task-tracker app. Taskinator allows individuals to organize their personal to-do 
+                                                list items by using a dropdown menu to change the task status and move the task into 
+                                                To Do, In Progress, and Completed lists. For more information please 
                                                 check the links below.
                                             </Card.Text>
                                             <Button href="https://rprice000.github.io/taskinator-2/" target="_blank" className="m-2 p-2">Deployed App</Button>
@@ -88,10 +86,9 @@ const Portfolio = () => {
                                     <Card.Body>
                                             <Card.Title>Project: Password Generator</Card.Title>
                                             <Card.Text>
-                                                This project was built with basic HTML5, CSS3, and vanilla 
-                                                Javascript. In the code can be found: Prompts, Object Creation 
-                                                and Storage, Basic Functions, and For Loops. For more information
-                                                please check the links below.
+                                                This project was built with basic HTML5, CSS3, and Javascript. 
+                                                In the code can be found: Prompts, Object Creation and Storage, 
+                                                Basic Functions, and For Loops. For more information please check the links below.
                                             </Card.Text>
                                             <Button href="https://rprice000.github.io/password-generator-2/" target="_blank" className="m-2 p-2">Deployed App</Button>
                                             <Button href="https://github.com/rprice000/password-generator-2" target="_blank" className="m-2 p-2">GitHub Repo</Button>
@@ -113,10 +110,10 @@ const Portfolio = () => {
                                         <Card.Body>
                                             <Card.Title>Project: Robot Gladiators</Card.Title>
                                             <Card.Text>
-                                                This project is built with mainly vanilla Javascript.  It was used to give an
-                                                understanding about basic Javscript fundamentals.  
-                                                In the code can be found: Alerts, Prompts, Object creation and Storage, Basic Functions,
-                                                For and While Loops. For more information please check the links below.
+                                                This project is built with vanilla Javascript.  The code used 
+                                                Javascript Alerts, Prompts, Object creation and Storage, Basic Functions,
+                                                For and While Loops to show an understanding of Javscript 
+                                                fundamentals. For more information please check the links below.
                                             </Card.Text>
                                             <Button href="https://rprice000.github.io/robot-gladiators-2/" target="_blank" className="m-2 p-2">Deployed App</Button>
                                             <Button href="https://github.com/rprice000/robot-gladiators-2" target="_blank" className="m-2 p-2">GitHub Repo</Button>
