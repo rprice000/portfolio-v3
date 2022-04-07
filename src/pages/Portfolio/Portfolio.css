@@ -83,22 +83,22 @@
     background-size: 400% 400%;
   }
   
-/*   
-  @media (max-width: 600px) {
+  
+  @media (max-width: 500px) {
     .card-text-responsive {
          font-size: small;
          color: red;
       }
   }
 
-@media (max-width: 450px) {
+@media (max-width: 370px) {
     .card-text-responsive {
          font-size: x-small;
          color:green;
       }
   }
    
-  /* @media (max-width: 395px) {
+   /* @media (max-width: 395px) {
     .text-responsive {
          font-size: medium;
          color:blue;
