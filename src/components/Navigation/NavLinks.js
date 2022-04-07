@@ -12,9 +12,9 @@ function NavLinks(props) {
        <Navbar expand="lg">
        <Navbar.Brand className='ps-5'><Header /></Navbar.Brand>
        <Navbar.Toggle />
-       <Navbar.Collapse className='justify-content-end pe-5'>
+       <Navbar.Collapse className='justify-content-end ps-5 pe-5'>
         {tabs.map((tab) => (
-          <Nav className='ps-5 pe-5' key={tab}>
+          <Nav key={tab}>
             <Nav.Link href={"#" + tab.toLowerCase()} onClick={() => props.handlePageChange(tab)}>
               {tab}
             </Nav.Link>
