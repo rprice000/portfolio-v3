@@ -56,34 +56,34 @@
 @media (max-width: 600px) {
     .text-responsive {
          font-size: x-large;
-         color: red;
+         /* color: red; */
       }
   }
 
 @media (max-width: 485px) {
     .text-responsive {
          font-size: large;
-         color:green;
+         /* color:green; */
       }
   }
    
   @media (max-width: 395px) {
     .text-responsive {
          font-size: medium;
-         color:blue;
+         /* color:blue; */
       }
   }
 
   @media (max-width: 360px) {
     .text-responsive {
          font-size: small;
-         color:blue;
+         /* color:blue; */
       }
   }
 
   @media (max-width: 280px) {
     .text-responsive {
          font-size: x-small;
-         color:yellow;
+         /* color:yellow; */
       } 
   }

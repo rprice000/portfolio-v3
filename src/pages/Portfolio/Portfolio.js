@@ -54,8 +54,8 @@ const Portfolio = () => {
                             <div className="cards d-flex">
                                 <div class="card-content-spacing card-bottom">
                                         <Card.Body>
-                                            <Card.Title>Project: Taskinator  </Card.Title>
-                                            <Card.Text>
+                                            <Card.Title className="card-text-responsive">Project: Taskinator  </Card.Title>
+                                            <Card.Text className="card-text-responsive">
                                                 APIs allow web developers to create dynamic, interactive web applications. 
                                                 Sometimes an API lets us interact with the page more easily. This project
                                                 uses APIs built directly into the browser, beginning with the Document Object Model, 

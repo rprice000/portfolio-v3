@@ -84,22 +84,37 @@
   }
   
   
-  @media screen and (max-width: 900px) {
-  
-  
-    .text-responsive {
-        font-size: calc(100% + .8vw + .8vh);
+  @media (max-width: 600px) {
+    .card-text-responsive {
+         font-size: small;
+         color: red;
       }
-  
-    
-}
+  }
 
-@media screen and (max-width: 450px) {
-  
-  
-    .text-responsive {
-        font-size: calc(75% + .1vw + .1vh);
+@media (max-width: 450px) {
+    .card-text-responsive {
+         font-size: x-small;
+         color:green;
       }
-  
-    
-}
+  }
+   
+  /* @media (max-width: 395px) {
+    .text-responsive {
+         font-size: medium;
+         color:blue;
+      }
+  }
+
+  @media (max-width: 360px) {
+    .text-responsive {
+         font-size: small;
+         color:orange;
+      }
+  } */
+
+  @media (max-width: 280px) {
+    .card-text-responsive {
+         font-size: xx-small;
+         color:pink;
+      } 
+  }
