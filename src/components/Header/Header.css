@@ -1,0 +1,15 @@
+/* #text-responsive {
+    font-size: calc(100% + .1vw + .1vh);
+  } */
+
+
+
+  @media screen and (max-width: 900px) {
+  
+  
+    #text-responsive {
+        font-size: calc(100% + .1vw + .1vh);
+      }
+  
+    
+}
