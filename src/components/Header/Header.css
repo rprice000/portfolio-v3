@@ -1,15 +1,28 @@
 
 
-@media screen and (max-width: 900px) {
+/* @media (max-width: 1238px) {
   
   
     .text-responsive {
-        font-size: calc(100% + .1vw + .1vh);
+        font-size: xx-large;
       }
   
     
-}
+} */
 
+/* @media (max-width: 540px) {
+  
+  
+  .text-responsive {
+       font-size: xx-small;
+       color: red
+    }
+
+  
+} */
+
+
+/* 
 @media screen and (max-width: 450px) {
   
   
@@ -18,4 +31,4 @@
       }
   
     
-}
+} */

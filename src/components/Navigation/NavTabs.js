@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 
+// import '../Navigation/NavTabs.css';
 
 // Component Imports
 import NavLinks from './NavLinks';
@@ -9,6 +10,7 @@ import About from '../../pages/About/About';
 import Resume from '../../pages/Resume/Resume';
 import Contact from '../../pages/Contact/Contact';
 
+import '../Navigation/NavTabs.css';
 
 
 function NavTabs() {
@@ -27,7 +29,7 @@ function NavTabs() {
 
   return (
     <div>
-      <NavLinks currentPage={currentPage} handlePageChange={handlePageChange} />
+      <NavLinks className="text-responsive" currentPage={currentPage} handlePageChange={handlePageChange} />
       <div>
         {
           

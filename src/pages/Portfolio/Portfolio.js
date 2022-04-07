@@ -16,11 +16,11 @@ const Portfolio = () => {
             <div id="portfolio-page">
                 <section id="portfolio-hero" className="mb-5 d-flex justify-content-center align-items-center">
                     <div className="flex-column d-flex justify-content-center align-items-center">
-                        <h1 class="hero-content">
+                        <h1 className="text-responsive">
                             Welcome to My Web Portfolio
                         </h1>
                     
-                        <h3 class="hero-content">
+                        <h3 className="text-responsive">
                             For more info on my projects hover a card.
                         </h3>
                     </div>

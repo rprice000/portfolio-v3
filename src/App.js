@@ -11,7 +11,7 @@ import Footer from '../src/components/Footer/Footer';
 
 const App = () => {
   return (
-
+  
     <Router>
       <NavTabs />
     

@@ -87,7 +87,19 @@
   @media screen and (max-width: 900px) {
   
   
-  
+    .text-responsive {
+        font-size: calc(100% + .8vw + .8vh);
+      }
   
     
-  }
+}
+
+@media screen and (max-width: 450px) {
+  
+  
+    .text-responsive {
+        font-size: calc(75% + .1vw + .1vh);
+      }
+  
+    
+}
