@@ -13,3 +13,13 @@
   
     
 }
+
+@media screen and (max-width: 450px) {
+  
+  
+    #text-responsive {
+        font-size: calc(75% + .1vw + .1vh);
+      }
+  
+    
+}
