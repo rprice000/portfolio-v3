@@ -102,8 +102,8 @@ const ParticleBackground = () => {
       }}
     />
       <div className="text">
-        <h1>Hi! My name is Reagan Price.</h1> 
-        <h1>This is my web portfolio. Take a look around.</h1>
+        <h1 className="text-responsive">Hi! My name is Reagan Price.</h1> 
+        <h1 className="text-responsive">This is my web portfolio. Take a look around.</h1>
       </div>
   
             
