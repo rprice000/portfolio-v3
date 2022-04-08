@@ -26,38 +26,38 @@
     width: 100%;
   }
 
+ 
 
-  @media (max-width: 600px) {
-    .text-responsive {
-         font-size: x-large;
-         /* color: red; */
-      }
-  }
-
-@media (max-width: 485px) {
-    .text-responsive {
-         font-size: large;
-         /* color:green; */
-      }
-  }
-   
-  @media (max-width: 395px) {
-    .text-responsive {
-         font-size: medium;
-         /* color:blue; */
-      }
-  }
-
-  @media (max-width: 360px) {
-    .text-responsive {
+ 
+  @media (max-width: 660px) {
+    .list-responsive {
          font-size: small;
-         /* color:blue; */
+      }
+  }
+
+@media (max-width: 575px) {
+  .list-responsive {
+         font-size: x-small;
+
+      }
+  }
+ 
+  @media (max-width: 500px) {
+    .list-responsive {
+         font-size: xx-small;
+      }
+  }
+/*
+  @media (max-width: 400px) {
+    #list-responsive {
+         font-size: xx-small;
+         background-color:blue;
       }
   }
 
   @media (max-width: 280px) {
-    .text-responsive {
+    #list-responsive {
          font-size: x-small;
-         /* color:yellow; */
+         background-color:yellow;
       } 
-  }
+  } */

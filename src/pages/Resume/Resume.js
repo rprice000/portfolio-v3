@@ -31,12 +31,12 @@ const Resume = () => {
                             <Card.Text>                               
                             <Container>                           
                             <Row className="justify-content-between">
-                                        <Col lg="5" className="text-center">
+                                        <Col lg="5" className="text-center mt-4">
                                         <h4>Sam Houston State University</h4>
                                             <p>Degree: Bachelor of Business Administration (BBA)</p>
                                             <p>Completed: May 2010</p> 
                                         </Col>
-                                        <Col lg="5" className="text-center">
+                                        <Col lg="5" className="text-center mt-4">
                                         <h4>University of Houston-Victoria</h4>
                                             <p>Masters in Entrepreneurship and Economic Development (MBA)</p>
                                             <p>Completed: December 2021</p> 
@@ -60,8 +60,6 @@ const Resume = () => {
                 <Col lg="10">
                 <h1 className="text-center">Credentials</h1>
                     <Card className="shadow-lg p-3 mb-5 bg-body rounded">
-                        <Card.Body>
-                            <Card.Text>
                                 <Table striped bordered hover className="text-center">
                                     <thead>
                                         <tr>
@@ -160,8 +158,6 @@ const Resume = () => {
                                        
                                     </tbody>
                                 </Table>
-                            </Card.Text>
-                        </Card.Body>
                     </Card>
                 </Col>
                 <Col lg="1">
@@ -181,41 +177,41 @@ const Resume = () => {
                         <Card.Body>
                             {/* <Card.Title>Technologies</Card.Title> */}
                             <Card.Text>
-                            <ListGroup>
+                            {/* <ListGroup> */}
                                 <Row fluid>
-                                    <Col  lg="4" xs="12">
-                                        <ListGroup.Item className="text-center">Visual Studio</ListGroup.Item>
-                                        <ListGroup.Item className="text-center">Git</ListGroup.Item>
-                                        <ListGroup.Item className="text-center">Mongo Atlas</ListGroup.Item>
-                                        <ListGroup.Item className="text-center">MySQL Workbench</ListGroup.Item>
-                                        <ListGroup.Item className="text-center">Insomnia API Client</ListGroup.Item>
-                                        <ListGroup.Item className="text-center">HTML5</ListGroup.Item>
-                                        <ListGroup.Item className="text-center">CSS3</ListGroup.Item>
-                                        <ListGroup.Item className="text-center">BootStrap</ListGroup.Item>
-                                        <ListGroup.Item className="text-center">Bulma</ListGroup.Item>
+                                    <Col>
+                                        <ListGroup.Item className="text-center list-responsive">Visual Studio</ListGroup.Item>
+                                        <ListGroup.Item className="text-center list-responsive">Git</ListGroup.Item>
+                                        <ListGroup.Item className="text-center list-responsive">Mongo Atlas</ListGroup.Item>
+                                        <ListGroup.Item className="text-center list-responsive">MySQL Workbench</ListGroup.Item>
+                                        <ListGroup.Item className="text-center list-responsive">Insomnia API Client</ListGroup.Item>
+                                        <ListGroup.Item className="text-center list-responsive">HTML5</ListGroup.Item>
+                                        <ListGroup.Item className="text-center list-responsive">CSS3</ListGroup.Item>
+                                        <ListGroup.Item className="text-center list-responsive">BootStrap</ListGroup.Item>
+                                        <ListGroup.Item className="text-center list-responsive">Bulma</ListGroup.Item>
                                     </Col>
-                                    <Col lg="4" xs="12">
-                                        <ListGroup.Item className="text-center">Semantic UI</ListGroup.Item>
-                                        <ListGroup.Item className="text-center">JavaScript</ListGroup.Item>
-                                        <ListGroup.Item className="text-center">Node.js</ListGroup.Item>
-                                        <ListGroup.Item className="text-center">Express.js</ListGroup.Item>
-                                        <ListGroup.Item className="text-center">SQL</ListGroup.Item>
-                                        <ListGroup.Item className="text-center">NoSQL</ListGroup.Item>
-                                        <ListGroup.Item className="text-center">React.js</ListGroup.Item>
+                                    <Col>
+                                        <ListGroup.Item className="text-center list-responsive">Semantic UI</ListGroup.Item>
+                                        <ListGroup.Item className="text-center list-responsive">JavaScript</ListGroup.Item>
+                                        <ListGroup.Item className="text-center list-responsive">Node.js</ListGroup.Item>
+                                        <ListGroup.Item className="text-center list-responsive">Express.js</ListGroup.Item>
+                                        <ListGroup.Item className="text-center list-responsive">SQL</ListGroup.Item>
+                                        <ListGroup.Item className="text-center list-responsive">NoSQL</ListGroup.Item>
+                                        <ListGroup.Item className="text-center list-responsive">React.js</ListGroup.Item>
                                     </Col>
-                                    <Col lg="4" xs="12">
-                                        <ListGroup.Item className="text-center">GraphQL</ListGroup.Item>
-                                        <ListGroup.Item className="text-center">MongoDB</ListGroup.Item>
-                                        <ListGroup.Item className="text-center">Apollo Server</ListGroup.Item>
-                                        <ListGroup.Item className="text-center">Stripe Payment</ListGroup.Item>
-                                        <ListGroup.Item className="text-center">Redux</ListGroup.Item>
-                                        <ListGroup.Item className="text-center">Object Oriented Programming (OOP)</ListGroup.Item>
-                                        <ListGroup.Item className="text-center">Object Relational Mapping (ORM)</ListGroup.Item>
-                                        <ListGroup.Item className="text-center">Model View Controller (MVC)</ListGroup.Item>
-                                        <ListGroup.Item className="text-center">Progressive Web Application (PWA) </ListGroup.Item>
+                                    <Col>
+                                        <ListGroup.Item className="text-center list-responsive">GraphQL</ListGroup.Item>
+                                        <ListGroup.Item className="text-center list-responsive">MongoDB</ListGroup.Item>
+                                        <ListGroup.Item className="text-center list-responsive">Apollo Server</ListGroup.Item>
+                                        <ListGroup.Item className="text-center list-responsive">Stripe Payment</ListGroup.Item>
+                                        <ListGroup.Item className="text-center list-responsive">Redux</ListGroup.Item>
+                                        <ListGroup.Item className="text-center list-responsive">(OOP)</ListGroup.Item>
+                                        <ListGroup.Item className="text-center list-responsive">(ORM)</ListGroup.Item>
+                                        <ListGroup.Item className="text-center list-responsive">(MVC)</ListGroup.Item>
+                                        <ListGroup.Item className="text-center list-responsive">(PWA)</ListGroup.Item>
                                     </Col>
                                 </Row>
-                            </ListGroup>
+                            {/* </ListGroup> */}
                         
             
 
