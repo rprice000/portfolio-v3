@@ -30,71 +30,86 @@
    padding: 0
  }
 
- 
+/* List View Port Styling */
   @media (max-width: 560px) {
     .list-responsive {
          font-size: small;
       }
   }
-
  @media (max-width: 480px) {
   .list-responsive {
          font-size: x-small;
 
       }
   }
-
   @media (max-width: 400px) {
     .list-responsive {
          font-size: xx-small;
       }
   }
-
   @media (max-width: 375px) {
     .list-responsive {
          font-size: .5em;
       }
   }
+/* List View Port Styling */
 
-/* 
-  @media (max-width: 900px) {
-    #testing {
+/* Job Title View Port Styling */
+@media (max-width: 460px) {
+  .jobtitle-responsive {
+       font-size: medium;
      
-         color: red;
-         padding: 0px;
+    }
+}
 
-      }
-  } */
+@media (max-width: 376px) {
+  .jobtitle-responsive {
+       font-size: small;
+     
+    }
+}
+
+@media (max-width: 325px) {
+  .jobtitle-responsive {
+       font-size: x-small;
+     
+    }
+}
+
+@media (max-width: 270px) {
+  .jobtitle-responsive {
+       font-size: xx-small;
+     
+    }
+}
+
+/* Job Title View Port Styling */
 
 
+/* Job Points View Port Styling */
   @media (max-width: 900px) {
     .job-responsive {
          font-size: small;
       }
   }
-
   @media (max-width: 700px) {
     .job-responsive {
          font-size: smaller;
       }
   }
-
   @media (max-width: 600px) {
     .job-responsive {
          font-size: x-small;
       }
   }
-
-
   @media (max-width: 470px) {
     .job-responsive {
          font-size: xx-small;
       }
   }
-
-
   @media (max-width: 375px) {
     .job-responsive {
          font-size: .5em;
       }
   }
+/* Job Points View Port Styling */
