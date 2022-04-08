@@ -34,8 +34,8 @@ const Portfolio = () => {
                             <div className="cards d-flex">
                                 <div class="card-content-spacing card-bottom">
                                         <Card.Body>
-                                            <Card.Title></Card.Title>
-                                            <Card.Text>
+                                            <Card.Title className="card-text-responsive"></Card.Title>
+                                            <Card.Text className="card-text-responsive">
                                                 
                                             </Card.Text>
                                             <Button href="" target="_blank" className="m-2 p-2">Deployed App</Button>
@@ -84,8 +84,8 @@ const Portfolio = () => {
                             <div className="cards d-flex">
                                 <div class="card-content-spacing card-bottom">
                                     <Card.Body>
-                                            <Card.Title>Project: Password Generator</Card.Title>
-                                            <Card.Text>
+                                            <Card.Title className="card-text-responsive">Project: Password Generator</Card.Title>
+                                            <Card.Text className="card-text-responsive">
                                                 This project was built with basic HTML5, CSS3, and Javascript. 
                                                 In the code can be found: Prompts, Object Creation and Storage, 
                                                 Basic Functions, and For Loops. For more information please check the links below.
@@ -108,8 +108,8 @@ const Portfolio = () => {
                             <div className="cards d-flex">
                                 <div class="card-content-spacing card-bottom">
                                         <Card.Body>
-                                            <Card.Title>Project: Robot Gladiators</Card.Title>
-                                            <Card.Text>
+                                            <Card.Title className="card-text-responsive">Project: Robot Gladiators</Card.Title>
+                                            <Card.Text className="card-text-responsive">
                                                 This project is built with vanilla Javascript.  The code used 
                                                 Javascript Alerts, Prompts, Object creation and Storage, Basic Functions,
                                                 For and While Loops to show an understanding of Javscript 
@@ -136,8 +136,8 @@ const Portfolio = () => {
                             <div className="cards d-flex">
                                 <div class="card-content-spacing card-bottom">
                                         <Card.Body>
-                                            <Card.Title></Card.Title>
-                                            <Card.Text>
+                                            <Card.Title className="card-text-responsive"></Card.Title>
+                                            <Card.Text className="card-text-responsive">
                                                 
                                             </Card.Text>
                                             <Button href="" target="_blank" className="m-2 p-2">Deployed App</Button>

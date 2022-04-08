@@ -87,34 +87,13 @@
   @media (max-width: 500px) {
     .card-text-responsive {
          font-size: small;
-         color: red;
+         /* color: red; */
       }
   }
 
 @media (max-width: 370px) {
     .card-text-responsive {
          font-size: x-small;
-         color:green;
+         /* color:green; */
       }
   }
-   
-   /* @media (max-width: 395px) {
-    .text-responsive {
-         font-size: medium;
-         color:blue;
-      }
-  }
-
-  @media (max-width: 360px) {
-    .text-responsive {
-         font-size: small;
-         color:orange;
-      }
-  } 
-
-  @media (max-width: 280px) {
-    .card-text-responsive {
-         font-size: xx-small;
-         color:pink;
-      } 
-  } */

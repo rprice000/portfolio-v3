@@ -14,22 +14,9 @@ import Carousel from '../../components/Slider/Slider';
 const Resume = () => {
     return (
         <div id="resume-page">
-
-            <Container fluid id="resume-hero">
-                <Row>
-                    <Col md="4" id="resume-col-1">
-                        <Card id="resume-card-title" className="d-flex justify-content-center align-items-center">
-                                <Card.Title><h1>My Resume</h1></Card.Title>
-                        </Card>
-                    </Col>
-
-                    <Col md="8" id="resume-col-2">
-                       <Carousel />
-                        
-                    </Col>
-                </Row>
-            </Container>
-
+         
+            <Carousel />
+          
             <Container fluid className="mt-5">
 
 {/* Education Card */}
@@ -75,7 +62,7 @@ const Resume = () => {
                     <Card className="shadow-lg p-3 mb-5 bg-body rounded">
                         <Card.Body>
                             <Card.Text>
-                                <Table striped bordered hover>
+                                <Table striped bordered hover className="text-center">
                                     <thead>
                                         <tr>
                                             <th>Issuing Organization</th>

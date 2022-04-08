@@ -4,71 +4,84 @@ import { Carousel, Card, ListGroup, ListGroupItem } from 'react-bootstrap';
 // Component and CSS Imports
 import './Slider.css'
 
-
+import { TiMediaRecord } from "react-icons/ti";
 
 
 const Slider = () => {
 
 
     return (
-
-            <Carousel 
-            fade 
-            controls={false} 
-            indicators={false} 
-            id="slider">
+           
+            <Carousel fade controls={true} indicators={false}>
                 
-                <Carousel.Item>
-                    <Card id="slide-1">
+                <Carousel.Item interval={5000}>
+                    <Card className="d-flex justify-content-center align-items-center pt-5 pb-5 slider">
+                        <h1 className="text-center">Resume Highlights</h1>
                         <Card.Body>
-                            <Card.Title>Full Stack Web Developer</Card.Title>
-                            <Card.Text>
-                                Completed Rice University Coding Bootcamp
+                            <Card.Title className="text-center pt-3 pb-3">
+                                <h3>
+                                    Full Stack Web Developer
+                                </h3>
+                            </Card.Title>
+                            <Card.Text className="text-center pt-3 pb-3">
+                                <h5>
+                                    Completed Rice University Coding Bootcamp
+                                </h5>
                             </Card.Text>
-                        </Card.Body>
-                        <Card.Body>
-                        <ListGroup className="list-group-flush">
-                            <ListGroupItem>Created over 34 deployed projects.</ListGroupItem>
-                            <ListGroupItem>Proficient in MERN Stack Web Development.</ListGroupItem>
-                            <ListGroupItem>Able to build web applications from the ground up -- from concept, navigation, layout, styling and programming.</ListGroupItem>
-                        </ListGroup>
+                            <ListGroup className="list-group-flush">
+                                <ListGroupItem style={{background: "none", color:"white"}}><TiMediaRecord />  Created over 34 deployed projects.</ListGroupItem>
+                                <ListGroupItem style={{background: "none", color:"white"}}><TiMediaRecord />  Proficient in MERN Stack Web Development.</ListGroupItem>
+                                <ListGroupItem style={{background: "none", color:"white"}}><TiMediaRecord />  Able to build web applications from the ground up -- from concept, navigation, layout, styling and programming.</ListGroupItem>
+                            </ListGroup>
+                    
                         </Card.Body>
                     </Card>
                 </Carousel.Item>
 
-                <Carousel.Item>
-                    <Card id="slide-2">
+                <Carousel.Item interval={5000}>
+                    <Card id="slide-2" className="d-flex justify-content-center align-items-center pt-5 pb-5 slider">
+                        <h1 className="text-center">Resume Highlights</h1>
                         <Card.Body>
-                            <Card.Title>Technology Experience</Card.Title>
-                            <Card.Text>
-                                Over 15 years of technology expereince. Ranging from troublshooting hardware and software platforms
+                            <Card.Title className="text-center pt-3 pb-3">
+                                <h3>
+                                    Technology Experience
+                                </h3>
+                            </Card.Title>
+                            <Card.Text className="text-center pt-3 pb-3">
+                                <h5>
+                                    Over 15 years of technology expereince.
+                                </h5>
                             </Card.Text>
-                        </Card.Body>
-                        <Card.Body>
-                        <ListGroup className="list-group-flush">
-                            <ListGroupItem>Fixed computers starting at 15 years old.</ListGroupItem>
-                            <ListGroupItem>7 years of network engineering.</ListGroupItem>
-                            <ListGroupItem>Full Stack Web Developer</ListGroupItem>
-                        </ListGroup>
+                            <ListGroup className="list-group-flush">
+                                <ListGroupItem style={{background: "none", color:"white"}}><TiMediaRecord />  Started at 15 years old fixing computers.</ListGroupItem>
+                                <ListGroupItem style={{background: "none", color:"white"}}><TiMediaRecord />  7 years of network engineering.</ListGroupItem>
+                                <ListGroupItem style={{background: "none", color:"white"}}><TiMediaRecord />  Full Stack Web Developer</ListGroupItem>
+                            </ListGroup>
+                          
                         </Card.Body>
                     </Card>
                 </Carousel.Item>
 
 
-                <Carousel.Item>
-                    <Card id="slide-3">
+                <Carousel.Item interval={5000}>
+                    <Card id="slide-3" className="d-flex justify-content-center align-items-center pt-5 pb-5 slider">
+                        <h1 className="text-center">Resume Highlights</h1>
                         <Card.Body>
-                            <Card.Title>Buisness Owner</Card.Title>
-                            <Card.Text>
-                                Completed entrepreneurship program that led to turning an idea into a small buisness.
+                            <Card.Title className="text-center pt-3 pb-3">
+                                <h3>
+                                    Buisness Owner
+                                </h3>   
+                            </Card.Title>
+                            <Card.Text className="text-center pt-3 pb-3">
+                                <h5>
+                                    Developed small business through MBA program.
+                                </h5>
                             </Card.Text>
-                        </Card.Body>
-                        <Card.Body>
-                        <ListGroup className="list-group-flush">
-                            <ListGroupItem>Trained in buisness analysis, buisness planning, and business development.</ListGroupItem>
-                            <ListGroupItem>Studied the role government, financial and non-profit institutions play in buisness growth.</ListGroupItem>
-                            <ListGroupItem>Created a small buisness providing web development and tech services to small office law practices.Proficient in MERN Stack Web Development.</ListGroupItem>
-                        </ListGroup>
+                            <ListGroup className="list-group-flush">
+                                <ListGroupItem style={{background: "none", color:"white"}}><TiMediaRecord />  Trained in buisness analysis, buisness planning, and business development.</ListGroupItem>
+                                <ListGroupItem style={{background: "none", color:"white"}}><TiMediaRecord />  Studied the role government, financial and non-profit institutions play in buisness growth.</ListGroupItem>
+                                <ListGroupItem style={{background: "none", color:"white"}}><TiMediaRecord />  Created a small buisness providing web development and tech services to small office law practices.Proficient in MERN Stack Web Development.</ListGroupItem>
+                            </ListGroup>
                         </Card.Body>
                     </Card>
                 </Carousel.Item>
