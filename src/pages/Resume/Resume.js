@@ -180,35 +180,35 @@ const Resume = () => {
                             {/* <ListGroup> */}
                                 <Row fluid>
                                     <Col>
-                                        <ListGroup.Item className="text-center list-responsive">Visual Studio</ListGroup.Item>
-                                        <ListGroup.Item className="text-center list-responsive">Git</ListGroup.Item>
-                                        <ListGroup.Item className="text-center list-responsive">Mongo Atlas</ListGroup.Item>
-                                        <ListGroup.Item className="text-center list-responsive">MySQL Workbench</ListGroup.Item>
-                                        <ListGroup.Item className="text-center list-responsive">Insomnia API Client</ListGroup.Item>
-                                        <ListGroup.Item className="text-center list-responsive">HTML5</ListGroup.Item>
-                                        <ListGroup.Item className="text-center list-responsive">CSS3</ListGroup.Item>
-                                        <ListGroup.Item className="text-center list-responsive">BootStrap</ListGroup.Item>
-                                        <ListGroup.Item className="text-center list-responsive">Bulma</ListGroup.Item>
+                                        <ListGroup.Item className="text-center list-responsive ps-0 pe-0">Visual Studio</ListGroup.Item>
+                                        <ListGroup.Item className="text-center list-responsive ps-0 pe-0">Git</ListGroup.Item>
+                                        <ListGroup.Item className="text-center list-responsive ps-0 pe-0">Mongo Atlas</ListGroup.Item>
+                                        <ListGroup.Item className="text-center list-responsive ps-0 pe-0">MySQL Workbench</ListGroup.Item>
+                                        <ListGroup.Item className="text-center list-responsive ps-0 pe-0">Insomnia API Client</ListGroup.Item>
+                                        <ListGroup.Item className="text-center list-responsive ps-0 pe-0">HTML5</ListGroup.Item>
+                                        <ListGroup.Item className="text-center list-responsive ps-0 pe-0">CSS3</ListGroup.Item>
+                                        <ListGroup.Item className="text-center list-responsive ps-0 pe-0">BootStrap</ListGroup.Item>
+                                        <ListGroup.Item className="text-center list-responsive ps-0 pe-0">Bulma</ListGroup.Item>
                                     </Col>
                                     <Col>
-                                        <ListGroup.Item className="text-center list-responsive">Semantic UI</ListGroup.Item>
-                                        <ListGroup.Item className="text-center list-responsive">JavaScript</ListGroup.Item>
-                                        <ListGroup.Item className="text-center list-responsive">Node.js</ListGroup.Item>
-                                        <ListGroup.Item className="text-center list-responsive">Express.js</ListGroup.Item>
-                                        <ListGroup.Item className="text-center list-responsive">SQL</ListGroup.Item>
-                                        <ListGroup.Item className="text-center list-responsive">NoSQL</ListGroup.Item>
-                                        <ListGroup.Item className="text-center list-responsive">React.js</ListGroup.Item>
+                                        <ListGroup.Item className="text-center list-responsive ps-0 pe-0">Semantic UI</ListGroup.Item>
+                                        <ListGroup.Item className="text-center list-responsive ps-0 pe-0">JavaScript</ListGroup.Item>
+                                        <ListGroup.Item className="text-center list-responsive ps-0 pe-0">Node.js</ListGroup.Item>
+                                        <ListGroup.Item className="text-center list-responsive ps-0 pe-0">Express.js</ListGroup.Item>
+                                        <ListGroup.Item className="text-center list-responsive ps-0 pe-0">SQL</ListGroup.Item>
+                                        <ListGroup.Item className="text-center list-responsive ps-0 pe-0">NoSQL</ListGroup.Item>
+                                        <ListGroup.Item className="text-center list-responsive ps-0 pe-0">React.js</ListGroup.Item>
                                     </Col>
                                     <Col>
-                                        <ListGroup.Item className="text-center list-responsive">GraphQL</ListGroup.Item>
-                                        <ListGroup.Item className="text-center list-responsive">MongoDB</ListGroup.Item>
-                                        <ListGroup.Item className="text-center list-responsive">Apollo Server</ListGroup.Item>
-                                        <ListGroup.Item className="text-center list-responsive">Stripe Payment</ListGroup.Item>
-                                        <ListGroup.Item className="text-center list-responsive">Redux</ListGroup.Item>
-                                        <ListGroup.Item className="text-center list-responsive">(OOP)</ListGroup.Item>
-                                        <ListGroup.Item className="text-center list-responsive">(ORM)</ListGroup.Item>
-                                        <ListGroup.Item className="text-center list-responsive">(MVC)</ListGroup.Item>
-                                        <ListGroup.Item className="text-center list-responsive">(PWA)</ListGroup.Item>
+                                        <ListGroup.Item className="text-center list-responsive ps-0 pe-0">GraphQL</ListGroup.Item>
+                                        <ListGroup.Item className="text-center list-responsive ps-0 pe-0">MongoDB</ListGroup.Item>
+                                        <ListGroup.Item className="text-center list-responsive ps-0 pe-0">Apollo Server</ListGroup.Item>
+                                        <ListGroup.Item className="text-center list-responsive ps-0 pe-0">Stripe Payment</ListGroup.Item>
+                                        <ListGroup.Item className="text-center list-responsive ps-0 pe-0">Redux</ListGroup.Item>
+                                        <ListGroup.Item className="text-center list-responsive ps-0 pe-0">(OOP)</ListGroup.Item>
+                                        <ListGroup.Item className="text-center list-responsive ps-0 pe-0">(ORM)</ListGroup.Item>
+                                        <ListGroup.Item className="text-center list-responsive ps-0 pe-0">(MVC)</ListGroup.Item>
+                                        <ListGroup.Item className="text-center list-responsive ps-0 pe-0">(PWA)</ListGroup.Item>
                                     </Col>
                                 </Row>
                             {/* </ListGroup> */}
@@ -231,16 +231,15 @@ const Resume = () => {
                 </Col>
                 <Col lg="10">
                 <h1 className="text-center">Professional Experience</h1>
-                    <Card className="shadow-lg p-3 mb-5 bg-body rounded">
-                        <Card.Body>
-                            <Card.Text>
+                    <Card id="testing" className="shadow-lg p-3 mb-5 bg-body rounded">
+
                                 
-                            <Card className="m-5">
-                                <Card.Body>
+                            <Card className="mt-5 mb-2">
+                                <Card.Body id="testing2">
                                     <Card.Title>Network Engineer</Card.Title>
                                     <Card.Subtitle className="mb-2">Humble Independent School District</Card.Subtitle>
                                     <Card.Subtitle className="mb-2">September 2015 – Currently Employed</Card.Subtitle>
-                                    <Card.Text>
+                                    <Card.Text className="job-responsive">
                                         <ul>
                                             <li>Managed over 700+ Cisco/Extreme Networks switches and routers, 150+ Eaton/APC Uninterrupted Power Supplies (UPS), over 200+ Vape Sensors</li>
                                             <li>Developed Strategic Technology Plans that included the research, development, implementation, and support of new and existing technologies</li>
@@ -253,12 +252,12 @@ const Resume = () => {
                                 </Card.Body>
                             </Card>
 
-                            <Card className="m-5">
+                            <Card className="mt-2 mb-2">
                                 <Card.Body>
                                     <Card.Title>Technical Support Technician</Card.Title>
                                     <Card.Subtitle className="mb-2">Pflugerville Independent School District</Card.Subtitle>
                                     <Card.Subtitle className="mb-2">January 2013 – May 2015</Card.Subtitle>
-                                    <Card.Text>
+                                    <Card.Text className="job-responsive">
                                         <ul>
                                             <li>Supported all technology needs of 1 high school, 1 middle school, and 3 elementary schools</li>
                                             <li>Diagnosed and repaired hardware and software issues for end-uses</li>
@@ -270,12 +269,12 @@ const Resume = () => {
                                 </Card.Body>
                             </Card>
 
-                            <Card className="m-5">
+                            <Card className="mt-2 mb-2">
                                 <Card.Body>
                                     <Card.Title>Dell Desktop Support</Card.Title>
                                     <Card.Subtitle className="mb-2">Apex Systems</Card.Subtitle>
                                     <Card.Subtitle className="mb-2">April 2012 – December 2012</Card.Subtitle>
-                                    <Card.Text>
+                                    <Card.Text className="job-responsive">
                                         <ul>
                                             <li>Technology Support for the Seton Hospital environment</li>
                                             <li>Sole IT Supporter for Seton Hospitals on the weekends</li>
@@ -290,12 +289,12 @@ const Resume = () => {
                                 </Card.Body>
                             </Card>
 
-                            <Card className="m-5">
+                            <Card className="mt-2 mb-2">
                                 <Card.Body>
                                     <Card.Title>PC Field Technician</Card.Title>
                                     <Card.Subtitle className="mb-2">Netsync Network Solutions</Card.Subtitle>
                                     <Card.Subtitle className="mb-2">January 2011 – January 2012</Card.Subtitle>
-                                    <Card.Text>
+                                    <Card.Text className="job-responsive">
                                         <ul>
                                             <li>Diagnosed and repaired PCs and laptops in the Houston Independent School District</li>
                                             <li>Sole Contact for 1/3 of Houston Independent School District hardware support</li>
@@ -307,12 +306,12 @@ const Resume = () => {
                                 </Card.Body>
                             </Card>
 
-                            <Card className="m-5">
+                            <Card className="mt-2 mb-2">
                                 <Card.Body>
                                     <Card.Title>Participant Services Representative</Card.Title>
                                     <Card.Subtitle className="mb-2">Mercer</Card.Subtitle>
                                     <Card.Subtitle className="mb-2">October 2010 – December 2010</Card.Subtitle>
-                                    <Card.Text>
+                                    <Card.Text className="job-responsive">
                                         <ul>
                                             <li>Responsible for receiving calls from and call-outs to participants</li>
                                             <li>Assisted participants in selecting Health and Benefits packages </li>
@@ -323,12 +322,12 @@ const Resume = () => {
                                 </Card.Body>
                             </Card>
 
-                            <Card className="m-5">
+                            <Card className="mt-2 mb-5">
                                 <Card.Body>
                                     <Card.Title>Summer System Analyst</Card.Title>
                                     <Card.Subtitle className="mb-2">Barbers Hill Independent School District</Card.Subtitle>
                                     <Card.Subtitle className="mb-2">Summers Only May to August 2004, 2005, 2006, 2007</Card.Subtitle>
-                                    <Card.Text>
+                                    <Card.Text className="job-responsive">
                                         <ul>
                                             <li>Updated and repaired computers - approximately 200 desktops and 1,100 laptops</li>
                                             <li>Replaced hardware - keyboards, screens, CD drives, hard drives, and printers</li>
@@ -341,12 +340,6 @@ const Resume = () => {
                                 </Card.Body>
                             </Card>
 
-
-
-
-
-                            </Card.Text>
-                        </Card.Body>
                     </Card>
                 </Col>
                 <Col lg="1">
