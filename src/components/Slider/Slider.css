@@ -8,29 +8,50 @@
   text-shadow: 3px 3px 3px black;
 }
 
+/* Slider-Title View Port Styling */
+@media (max-width: 560px) {
+  .slidertitle-responsive {
+       font-size: medium;
+    }
+}
+@media (max-width: 480px) {
+  .slidertitle-responsive {
+       font-size: 17px;
+    }
+}
+@media (max-width: 400px) {
+  .slidertitle-responsive {
+       font-size: 14px;
+    }
+}
+@media (max-width: 275px) {
+  .slidertitle-responsive {
+       font-size: 10px;
+    }
+}
+/* Slider-Title View Port Styling */
+
+
 /* Slider-Content View Port Styling */
 @media (max-width: 560px) {
   .slidercontent-responsive {
-       font-size: medium;
-       color: red;
+       font-size: small;
     }
 }
 @media (max-width: 480px) {
   .slidercontent-responsive {
-       font-size: small;
-       color: blue;
+       font-size: x-small;
+
     }
 }
 @media (max-width: 400px) {
   .slidercontent-responsive {
-       font-size: x-small;
-       color: yellow;
+       font-size: xx-small;
     }
 }
 @media (max-width: 375px) {
   .slidercontent-responsive {
-       font-size: xx-small;
-       color: green;
+       font-size: .5em;
     }
 }
 /* Slider-Content View Port Styling */
