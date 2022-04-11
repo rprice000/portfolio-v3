@@ -8,3 +8,26 @@
   text-shadow: 3px 3px 3px black;
 }
 
+/* Slider-Content View Port Styling */
+@media (max-width: 560px) {
+  .slidercontent-responsive {
+       font-size: medium;
+    }
+}
+@media (max-width: 480px) {
+  .slidercontent-responsive {
+       font-size: small;
+
+    }
+}
+@media (max-width: 400px) {
+  .slidercontent-responsive {
+       font-size: x-small;
+    }
+}
+@media (max-width: 375px) {
+  .slidercontent-responsive {
+       font-size: xx-small;
+    }
+}
+/* Slider-Content View Port Styling */

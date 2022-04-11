@@ -24,7 +24,7 @@ const Slider = () => {
                                 </h3>
                             </Card.Title>
                             <Card.Text className="text-center pt-3 pb-3">
-                                <h5>
+                                <h5 className="slidercontent-responsive">
                                     Completed Rice University Coding Bootcamp
                                 </h5>
                             </Card.Text>
@@ -48,7 +48,7 @@ const Slider = () => {
                                 </h3>
                             </Card.Title>
                             <Card.Text className="text-center pt-3 pb-3">
-                                <h5>
+                                <h5 className="slidercontent-responsive">
                                     Over 15 years of technology expereince.
                                 </h5>
                             </Card.Text>
@@ -73,7 +73,7 @@ const Slider = () => {
                                 </h3>   
                             </Card.Title>
                             <Card.Text className="text-center pt-3 pb-3">
-                                <h5>
+                                <h5 className="slidercontent-responsive">
                                     Developed small business through MBA program.
                                 </h5>
                             </Card.Text>
