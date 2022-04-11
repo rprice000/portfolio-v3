@@ -16,17 +16,17 @@
 }
 @media (max-width: 480px) {
   .slidertitle-responsive {
-       font-size: 17px;
+       font-size: 15px;
     }
 }
 @media (max-width: 400px) {
   .slidertitle-responsive {
-       font-size: 14px;
+       font-size: 13px;
     }
 }
 @media (max-width: 275px) {
   .slidertitle-responsive {
-       font-size: 10px;
+       font-size: 8px;
     }
 }
 /* Slider-Title View Port Styling */
