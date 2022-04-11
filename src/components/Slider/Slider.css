@@ -17,11 +17,19 @@
 @media (max-width: 480px) {
   .slidertitle-responsive {
        font-size: 15px;
+       color:red
+    }
+}
+@media (max-width: 440px) {
+  .slidertitle-responsive {
+       font-size: 14px;
+       color:orange
     }
 }
 @media (max-width: 400px) {
   .slidertitle-responsive {
        font-size: 13px;
+       color:blue
     }
 }
 @media (max-width: 275px) {
