@@ -34,15 +34,26 @@
     .aboutcontent-responsive {
          font-size: smaller;
       }
+    .abouttitle-responsive{
+        font-size: large;
+      }
   }
   @media (max-width: 400px) {
     .aboutcontent-responsive {
          font-size: x-small;
       }
   }
+  @media (max-width: 350px) {
+    .abouttitle-responsive{
+      font-size: medium;
+    }
+  }
   @media (max-width: 300px) {
     .aboutcontent-responsive {
-         font-size: xx-smal;;
+         font-size: xx-small;
+      }
+    .abouttitle-responsive{
+        font-size: small;
       }
   }
 /* Job Points View Port Styling */
