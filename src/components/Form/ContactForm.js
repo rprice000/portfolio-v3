@@ -28,9 +28,11 @@ const ContactForm = () => {
     
 
     return (
-        <Card>
+        <Card id="testing">
             <h2 className='d-flex justify-content-center' style={{marginTop: "25px"}}>Contact Form</h2>
-            <form className="row" style={{ margin: "25px 85px 75px 100px"}} onSubmit={sendEmail}>
+            <form className="row"
+            style={{ margin: "25px 85px 75px 100px"}} 
+            onSubmit={sendEmail}>
             {status?.type === 'success' && <p>Message sent successfully!</p>}
             {status?.type === 'error' && (<p>Message failed to send!</p>)}
                 <label>Full Name</label>

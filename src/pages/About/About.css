@@ -11,3 +11,38 @@
     text-align: right;
   }
   
+
+  /* Job Points View Port Styling */
+  @media (max-width: 900px) {
+    .aboutcontent-responsive {
+         margin-right:30px;
+         margin-left: 30px;
+      }
+    .abouttitle-responsive{
+      margin-right:30px;
+    }
+    .aboutstart-responsive{
+      margin-left: 30px;
+    }
+  }
+  @media (max-width: 700px) {
+    .aboutcontent-responsive {
+         font-size: small;
+      }
+  }
+  @media (max-width: 500px) {
+    .aboutcontent-responsive {
+         font-size: smaller;
+      }
+  }
+  @media (max-width: 400px) {
+    .aboutcontent-responsive {
+         font-size: x-small;
+      }
+  }
+  @media (max-width: 300px) {
+    .aboutcontent-responsive {
+         font-size: xx-smal;;
+      }
+  }
+/* Job Points View Port Styling */

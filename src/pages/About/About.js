@@ -25,7 +25,7 @@ const About = () => {
                     {/* Spacing Column */}
             </Col>
             <Col>
-                <h1>A little about me . . .</h1>
+                <h1 className="aboutstart-responsive">A little about me . . .</h1>
             </Col>
             </Row>
 
@@ -55,8 +55,8 @@ const About = () => {
                     {/* Spacing Column */}
             </Col>
             <Col className="block-example border-bottom border-dark">
-                    <h2 className="text-end mb-5">Tech Nerd</h2>
-                    <p className="mb-5">
+                    <h2 className="abouttitle-responsive text-end mb-5">Tech Nerd</h2>
+                    <p className="aboutcontent-responsive mb-5">
                         I love the quote from Aurthur C. Clarke, “Any sufficiently advanced technology is 
                         indistinguishable from magic.”  This has always been true for me.  Growing up I have
                         always been drawn to the latest gizmo or gadegt.  I once took apart my Nintendo 64 controller
@@ -75,8 +75,8 @@ const About = () => {
                    
             </Col>
             <Col className="block-example border-bottom border-dark">
-                    <h2 className="text-end mb-5">Business Owner</h2>
-                    <p className="mb-5">
+                    <h2 className="abouttitle-responsive text-end mb-5">Business Owner</h2>
+                    <p className="aboutcontent-responsive mb-5">
                         After working in tech for 10 years, I honestly felt like I was 
                         not being challenged enough in my work.  Don’t get me wrong I 
                         love what I do.  To me starting a small business I just wanted 
@@ -96,8 +96,8 @@ const About = () => {
                     {/* Spacing Column */}
             </Col>
             <Col className="block-example border-bottom border-dark">
-                    <h2 className="text-end mb-5">Gamer</h2>
-                    <p className="mb-5">
+                    <h2 className="abouttitle-responsive text-end mb-5">Gamer</h2>
+                    <p className="aboutcontent-responsive mb-5">
                         From playing on the regular Nintendo when I was a kid to now playing 
                         on a gaming PC with a GTX 1080 Ti graphics card; gaming has always been 
                         a part of my life.   Gaming has always been a stress reliever and a way 
@@ -116,8 +116,8 @@ const About = () => {
                     {/* Spacing Column */}
             </Col>
             <Col className="block-example border-bottom border-dark">
-                    <h2 className="text-end mb-5">Artist and Writer</h2>
-                    <p className="mb-5">
+                    <h2 className="abouttitle-responsive text-end mb-5">Artist and Writer</h2>
+                    <p className="aboutcontent-responsive mb-5">
                         Whenever I have free time, I always find myself writing 
                         and drawing.  Although I am not a published author, one day 
                         I do plan to create my own comic book.  I never thought 
@@ -140,8 +140,8 @@ const About = () => {
                     {/* Spacing Column */}
             </Col>
             <Col className="block-example border-bottom border-dark mb-5">
-                    <h2 className="text-end mb-5">Semi-Professional Amatuer Athlete</h2>
-                    <p className="mb-5">
+                    <h2 className="abouttitle-responsive text-end mb-5">Semi-Professional Amatuer Athlete</h2>
+                    <p className="aboutcontent-responsive mb-5">
                         I have yet to be drafted into the NFL.  One day I will score an NFL 
                         touchdown.   This is why I live an active and healthy lifestyle.  
                         If you are the head coach of a team in the NFL and are looking for a 
