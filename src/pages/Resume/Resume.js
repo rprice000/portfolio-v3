@@ -73,87 +73,87 @@ const Resume = () => {
                                     <tbody>
 
                                         <tr>
-                                            <td>Rice University</td>
-                                            <td>Full Stack Web Developer Coding Bootcamp</td>
-                                            <td>February 2022</td>
+                                            <td className="credentials-responsive">Rice University</td>
+                                            <td className="credentials-responsive">Full Stack Web Developer Coding Bootcamp</td>
+                                            <td className="credentials-responsive">February 2022</td>
                                         </tr>
 
                                         <tr>
-                                            <td>Coursera</td>
-                                            <td>Advanced Styling and Responsive Design</td>
-                                            <td>February 2020</td>
+                                            <td className="credentials-responsive">Coursera</td>
+                                            <td className="credentials-responsive">Advanced Styling and Responsive Design</td>
+                                            <td className="credentials-responsive">February 2020</td>
                                         </tr>
 
                                         <tr>
-                                            <td>Coursera</td>
-                                            <td>Interactivity with JavaScript</td>
-                                            <td>February 2020</td>
+                                            <td className="credentials-responsive">Coursera</td>
+                                            <td className="credentials-responsive">Interactivity with JavaScript</td>
+                                            <td className="credentials-responsive">February 2020</td>
                                         </tr>
 
                                         <tr>
-                                            <td>Coursera</td>
-                                            <td>Intro to CSS3</td>
-                                            <td>February 2020</td>
+                                            <td className="credentials-responsive">Coursera</td>
+                                            <td className="credentials-responsive">Intro to CSS3</td>
+                                            <td className="credentials-responsive">February 2020</td>
                                         </tr>
 
                                         <tr>
-                                            <td>Coursera</td>
-                                            <td>Intro to HTML5</td>
-                                            <td>January 2020</td>
+                                            <td className="credentials-responsive">Coursera</td>
+                                            <td className="credentials-responsive">Intro to HTML5</td>
+                                            <td className="credentials-responsive">January 2020</td>
                                         </tr>
 
                                         <tr>
-                                            <td>Coursera</td>
-                                            <td>Intro to Search Engine Optimization</td>
-                                            <td>June 2018</td>
+                                            <td className="credentials-responsive">Coursera</td>
+                                            <td className="credentials-responsive">Intro to Search Engine Optimization</td>
+                                            <td className="credentials-responsive">June 2018</td>
                                         </tr>
 
                                         <tr>
-                                            <td>Cisco Systems</td>
-                                            <td>CCNA Routing and Switching</td>
-                                            <td>March 2010</td>
+                                            <td className="credentials-responsive">Cisco Systems</td>
+                                            <td className="credentials-responsive">CCNA Routing and Switching</td>
+                                            <td className="credentials-responsive">March 2010</td>
                                         </tr>
 
                                         <tr>
-                                            <td>CompTIA</td>
-                                            <td>N+ Certified </td>
-                                            <td>October 2013</td>
+                                            <td className="credentials-responsive">CompTIA</td>
+                                            <td className="credentials-responsive">N+ Certified </td>
+                                            <td className="credentials-responsive">October 2013</td>
                                         </tr>
 
                                         <tr>
-                                            <td>CompTIA</td>
-                                            <td>A+ Certified</td>
-                                            <td>May 2011</td>
+                                            <td className="credentials-responsive">CompTIA</td>
+                                            <td className="credentials-responsive">A+ Certified</td>
+                                            <td className="credentials-responsive">May 2011</td>
                                         </tr>
 
                                         <tr>
-                                            <td>Cisco Systems</td>
-                                            <td>Introduction to Telepresence Training Certificate of Completion</td>
-                                            <td>February 2012</td>
+                                            <td className="credentials-responsive">Cisco Systems</td>
+                                            <td className="credentials-responsive">Introduction to Telepresence Training Certificate of Completion</td>
+                                            <td className="credentials-responsive">February 2012</td>
                                         </tr>
 
                                         <tr>
-                                            <td>Dell</td>
-                                            <td>Desktop Certified </td>
-                                            <td>May 2011</td>
+                                            <td className="credentials-responsive">Dell</td>
+                                            <td className="credentials-responsive">Desktop Certified </td>
+                                            <td className="credentials-responsive">May 2011</td>
                                         </tr>
 
                                         <tr>
-                                            <td>Dell</td>
-                                            <td>Laptop Certified</td>
-                                            <td>May 2011</td>
+                                            <td className="credentials-responsive">Dell</td>
+                                            <td className="credentials-responsive">Laptop Certified</td>
+                                            <td className="credentials-responsive">May 2011</td>
                                         </tr>
 
                                         <tr>
-                                            <td>Dell</td>
-                                            <td>Network Printer Certified</td>
-                                            <td>October 2011</td>
+                                            <td className="credentials-responsive">Dell</td>
+                                            <td className="credentials-responsive">Network Printer Certified</td>
+                                            <td className="credentials-responsive">October 2011</td>
                                         </tr>
 
                                         <tr>
-                                            <td>HP/Hewlett-Packard</td>
-                                            <td>H08-Servicing HP Desktops, Workstations, and Notebooks</td>
-                                            <td>September 2010</td>
+                                            <td className="credentials-responsive">HP/Hewlett-Packard</td>
+                                            <td className="credentials-responsive">H08-Servicing HP Desktops, Workstations, and Notebooks</td>
+                                            <td className="credentials-responsive">September 2010</td>
                                         </tr>
                                        
                                     </tbody>
