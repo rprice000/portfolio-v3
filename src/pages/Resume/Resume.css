@@ -83,6 +83,12 @@
     }
 }
 
+@media (max-width: 250px) {
+  .jobtitle-responsive {
+       font-size: 8.7px;
+     
+    }
+}
 /* Job Title View Port Styling */
 
 
