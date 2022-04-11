@@ -33,23 +33,23 @@
 /* Education View Port Styling */
 @media (max-width: 560px) {
   .education-responsive {
-       font-size: small;
+       font-size: medium;
     }
 }
 @media (max-width: 480px) {
   .education-responsive {
-       font-size: x-small;
+       font-size: small;
 
     }
 }
 @media (max-width: 400px) {
   .education-responsive {
-       font-size: xx-small;
+       font-size: x-small;
     }
 }
 @media (max-width: 375px) {
   .education-responsive {
-       font-size: .5em;
+       font-size: xx-small;
     }
 }
 /* Education View Port Styling */
