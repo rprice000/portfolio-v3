@@ -6,7 +6,11 @@
   background: linear-gradient(rgb(0, 0, 0), #2a2a2a, #5b5b5b, #818181, #818181, #5b5b5b, #2a2a2a, rgb(0, 0, 0));
   color: white;
   text-shadow: 3px 3px 3px black;
+  height: 60vh;
 }
+
+
+
 
 /* Slider-Title View Port Styling */
 @media (max-width: 560px) {
@@ -17,19 +21,16 @@
 @media (max-width: 480px) {
   .slidertitle-responsive {
        font-size: 15px;
-       color:red
     }
 }
 @media (max-width: 440px) {
   .slidertitle-responsive {
        font-size: 14px;
-       color:orange
     }
 }
 @media (max-width: 400px) {
   .slidertitle-responsive {
        font-size: 13px;
-       color:blue
     }
 }
 @media (max-width: 275px) {
