@@ -32,14 +32,14 @@ const Resume = () => {
                             <Container>                           
                             <Row className="justify-content-between">
                                         <Col lg="5" className="text-center mt-4">
-                                        <h4>Sam Houston State University</h4>
-                                            <p>Degree: Bachelor of Business Administration (BBA)</p>
-                                            <p>Completed: May 2010</p> 
+                                        <h4 className="education-responsive">Sam Houston State University</h4>
+                                            <p className="education-responsive">Degree: Bachelor of Business Administration (BBA)</p>
+                                            <p className="education-responsive">Completed: May 2010</p> 
                                         </Col>
                                         <Col lg="5" className="text-center mt-4">
-                                        <h4>University of Houston-Victoria</h4>
-                                            <p>Masters in Entrepreneurship and Economic Development (MBA)</p>
-                                            <p>Completed: December 2021</p> 
+                                        <h4 className="education-responsive">University of Houston-Victoria</h4>
+                                            <p className="education-responsive">Masters in Entrepreneurship and Economic Development (MBA)</p>
+                                            <p className="education-responsive">Completed: December 2021</p> 
                                         </Col>
                             </Row>
                             </Container>                               
@@ -163,7 +163,7 @@ const Resume = () => {
                 <Col lg="1">
                     {/* Spacing Column */}
                 </Col>
-                </Row>
+            </Row>
 
 {/* Technologies Card */}
                 <Row>

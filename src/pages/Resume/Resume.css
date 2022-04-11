@@ -30,6 +30,30 @@
    padding: 0
  }
 
+/* Education View Port Styling */
+@media (max-width: 560px) {
+  .education-responsive {
+       font-size: small;
+    }
+}
+@media (max-width: 480px) {
+  .education-responsive {
+       font-size: x-small;
+
+    }
+}
+@media (max-width: 400px) {
+  .education-responsive {
+       font-size: xx-small;
+    }
+}
+@media (max-width: 375px) {
+  .education-responsive {
+       font-size: .5em;
+    }
+}
+/* Education View Port Styling */
+
 /* Credentials View Port Styling */
 @media (max-width: 560px) {
   .credentials-responsive {
