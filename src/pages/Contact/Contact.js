@@ -29,9 +29,9 @@ const Contact = () => {
                             
                         </div>
                       
-                        <h3>I am open to web development jobs and projects.</h3>
-                        <h3>If my portfolio has caught your attention.</h3>
-                        <h3> Please reach out to me.</h3>
+                        <h3 className="contacthero-content-responsive">I am open to web development jobs and projects.</h3>
+                        <h3 className="contacthero-content-responsive">If my portfolio has caught your attention.</h3>
+                        <h3 className="contacthero-content-responsive"> Please reach out to me.</h3>
                         <Container>
                         <ul class="circles">
                           <li></li>
