@@ -30,7 +30,7 @@ const Portfolio = () => {
 {/* SECOND ROW */}
                     <Row>
 {/* PlaceHolder */}
-                    <Col className="card-column d-flex justify-content-center">
+                    {/* <Col className="card-column d-flex justify-content-center">
                             <div className="cards d-flex">
                                 <div class="card-content-spacing card-bottom">
                                         <Card.Body>
@@ -48,7 +48,7 @@ const Portfolio = () => {
                                     </h2>
                                 </div>
                             </div>
-                        </Col>
+                        </Col> */}
 {/* Taskinator */}
                         <Col className="card-column d-flex justify-content-center">
                             <div className="cards d-flex">
