@@ -63,9 +63,9 @@ const Resume = () => {
                                 <Table striped bordered hover className="text-center">
                                     <thead>
                                         <tr>
-                                            <th>Issuing Organization</th>
-                                            <th>Certificate</th>
-                                            <th>Completed</th>
+                                            <th className="credentials-responsive">Issuing Organization</th>
+                                            <th className="credentials-responsive">Certificate</th>
+                                            <th className="credentials-responsive">Completed</th>
                                         </tr>
 
                                     </thead>

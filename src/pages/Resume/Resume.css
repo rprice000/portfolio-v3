@@ -30,6 +30,36 @@
    padding: 0
  }
 
+/* Credentials View Port Styling */
+@media (max-width: 560px) {
+  .credentials-responsive {
+       font-size: small;
+    }
+}
+@media (max-width: 480px) {
+  .credentials-responsive {
+       font-size: x-small;
+
+    }
+}
+@media (max-width: 400px) {
+  .credentials-responsive {
+       font-size: xx-small;
+    }
+}
+@media (max-width: 375px) {
+  .credentials-responsive {
+       font-size: .5em;
+    }
+}
+/* Credentials View Port Styling */
+
+
+
+
+
+
+
 /* List View Port Styling */
   @media (max-width: 560px) {
     .list-responsive {
@@ -55,59 +85,34 @@
 /* List View Port Styling */
 
 /* Job Title View Port Styling */
-
-@media (max-width: 470px) {
-  .jobtitle-responsive {
-       font-size: medium;
-     color: orange;
-    }
-}
-
-
-
-
-
-
 @media (max-width: 460px) {
   .jobtitle-responsive {
        font-size: medium;
-     color: red;
     }
 }
-
 @media (max-width: 450px) {
   .jobtitle-responsive {
        font-size: 13px;
-     color: pink;
     }
 }
-
-
 @media (max-width: 376px) {
   .jobtitle-responsive {
        font-size: small;
-       color: blue;
     }
 }
-
 @media (max-width: 325px) {
   .jobtitle-responsive {
        font-size: x-small;
-       color: yellow;
     }
 }
-
 @media (max-width: 270px) {
   .jobtitle-responsive {
        font-size: xx-small;
-       color: purple;
     }
 }
-
 @media (max-width: 250px) {
   .jobtitle-responsive {
        font-size: 8.7px;
-       color: green;
     }
 }
 /* Job Title View Port Styling */
