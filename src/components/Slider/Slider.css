@@ -12,22 +12,25 @@
 @media (max-width: 560px) {
   .slidercontent-responsive {
        font-size: medium;
+       color: red;
     }
 }
 @media (max-width: 480px) {
   .slidercontent-responsive {
        font-size: small;
-
+       color: blue;
     }
 }
 @media (max-width: 400px) {
   .slidercontent-responsive {
        font-size: x-small;
+       color: yellow;
     }
 }
 @media (max-width: 375px) {
   .slidercontent-responsive {
        font-size: xx-small;
+       color: green;
     }
 }
 /* Slider-Content View Port Styling */
