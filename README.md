@@ -58,3 +58,4 @@ https://rprice000.github.io/portfolio-v3/
 ## Authors
 - Reagan Price
 - GitHub Account: rprice000
+- Email: rtprice21@gmail.com
