@@ -115,7 +115,7 @@ const About = () => {
             <Col lg="5">
                     {/* Spacing Column */}
             </Col>
-            <Col className="block-example border-bottom border-dark">
+            <Col className="block-example border-bottom border-dark mb-5">
                     <h2 className="abouttitle-responsive text-end mb-5">Artist and Writer</h2>
                     <p className="aboutcontent-responsive mb-5">
                         Whenever I have free time, I always find myself writing 
@@ -133,6 +133,8 @@ const About = () => {
                     {/* Spacing Column */}
                 </Col>
             </Row>
+
+
 
            </Container>
            
