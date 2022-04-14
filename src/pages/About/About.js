@@ -134,25 +134,6 @@ const About = () => {
                 </Col>
             </Row>
 
-{/* Health and Fitness */}
-            <Row className="mt-5">
-            <Col lg="5">
-                    {/* Spacing Column */}
-            </Col>
-            <Col className="block-example border-bottom border-dark mb-5">
-                    <h2 className="abouttitle-responsive text-end mb-5">Semi-Professional Amatuer Athlete</h2>
-                    <p className="aboutcontent-responsive mb-5">
-                        I have yet to be drafted into the NFL.  One day I will score an NFL 
-                        touchdown.   This is why I live an active and healthy lifestyle.  
-                        If you are the head coach of a team in the NFL and are looking for a 
-                        top-tier athlete, please contact me.   
-                    </p>
-                </Col>
-                <Col lg="2">
-                    {/* Spacing Column */}
-                </Col>
-            </Row>
-
            </Container>
            
         </div>
