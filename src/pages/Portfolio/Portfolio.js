@@ -49,6 +49,31 @@ const Portfolio = () => {
                                 </div>
                             </div>
                         </Col> */}
+{/* SECOND ROW */}
+{/* Coding Quiz */}
+                        <Col className="card-column d-flex justify-content-center">
+                            <div className="cards d-flex">
+                                <div class="card-content-spacing card-bottom">
+                                        <Card.Body>
+                                            <Card.Title className="card-text-responsive">Project: Coding Quiz  </Card.Title>
+                                            <Card.Text className="card-text-responsive">
+                                                This project uses APIs built directly into the browser. The Coding Quiz project is
+                                                a quiz where users can save their scores. The Coding Quiz app allows individuals to take a quiz,
+                                                store their score in local storage, see other user scores, and clear score from local storage. 
+                                                For more information please check the links below.
+                                            </Card.Text>
+                                            <Button href="https://rprice000.github.io/code-quiz-2/" target="_blank" className="m-2 p-2">Deployed App</Button>
+                                            <Button href="https://github.com/rprice000/code-quiz-2" target="_blank" className="m-2 p-2">GitHub Repo</Button>
+                                        </Card.Body>
+                                </div>
+                                <div class="card-content-spacing card-cover">
+                                    <h2>
+                                        Coding Quiz
+                                    </h2>
+                                </div>
+                            </div>
+                        </Col>
+
 {/* Taskinator */}
                         <Col className="card-column d-flex justify-content-center">
                             <div className="cards d-flex">
@@ -56,7 +81,7 @@ const Portfolio = () => {
                                         <Card.Body>
                                             <Card.Title className="card-text-responsive">Project: Taskinator  </Card.Title>
                                             <Card.Text className="card-text-responsive">
-                                                This project uses APIs built directly into the browser. The taskinator project is
+                                                This project uses APIs built directly into the browser and vanilla Javascript. The taskinator project is
                                                 a task-tracker app. Taskinator allows individuals to organize their personal to-do 
                                                 list items by using a dropdown menu to change the task status and move the task into 
                                                 To Do, In Progress, and Completed lists. For more information please 
