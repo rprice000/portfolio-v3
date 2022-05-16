@@ -27,10 +27,35 @@ const Portfolio = () => {
                 </section>
                 <Container fluid>
 
-{/* SECOND ROW */}
-                    <Row>
 {/* PlaceHolder */}
-                    {/* <Col className="card-column d-flex justify-content-center">
+                    {/* <Row>
+
+                        <Col className="card-column d-flex justify-content-center">
+                            <div className="cards d-flex">
+                                <div class="card-content-spacing card-bottom">
+                                        <Card.Body>
+                                            <Card.Title className="card-text-responsive"></Card.Title>
+                                            <Card.Text className="card-text-responsive">
+                                                
+                                            </Card.Text>
+                                            <Button href="" target="_blank" className="m-2 p-2">Deployed App</Button>
+                                            <Button href="" target="_blank" className="m-2 p-2">GitHub Repo</Button>
+                                        </Card.Body>
+                                </div>
+                                <div class="card-content-spacing card-cover">
+                                    <h2>
+                                        
+                                    </h2>
+                                </div>
+                            </div>
+                        </Col>
+                    </Row> */}
+
+{/* THIRD ROW */}
+                    <Row>
+
+
+                        {/* <Col className="card-column d-flex justify-content-center">
                             <div className="cards d-flex">
                                 <div class="card-content-spacing card-bottom">
                                         <Card.Body>
@@ -49,8 +74,38 @@ const Portfolio = () => {
                                 </div>
                             </div>
                         </Col> */}
+
+
+
+                        <Col className="card-column d-flex justify-content-center">
+                            <div className="cards d-flex">
+                                <div class="card-content-spacing card-bottom">
+                                        <Card.Body>
+                                            <Card.Title className="card-text-responsive">Project: Taskinator Pro</Card.Title>
+                                            <Card.Text className="card-text-responsive">
+                                                Third-party APIs are libraries or frameworks that allow you to incorporate additional 
+                                                functionality into your web application. This project uses to popular Bootstrap and jQuery. 
+                                                The Taskinator Pro 2 application incorporates these APIs to give a better look and feel to 
+                                                the Taskinator App and to give more functionality.
+                                            </Card.Text>
+                                            <Button href="https://rprice000.github.io/taskinator-pro-2/" target="_blank" className="m-2 p-2">Deployed App</Button>
+                                            <Button href="https://github.com/rprice000/taskinator-pro-2" target="_blank" className="m-2 p-2">GitHub Repo</Button>
+                                        </Card.Body>
+                                </div>
+                                <div class="card-content-spacing card-cover">
+                                    <h2>
+                                        Taskinator Pro
+                                    </h2>
+                                </div>
+                            </div>
+                        </Col>
+                    </Row>
+
+
+
 {/* SECOND ROW */}
 {/* Coding Quiz */}
+                    <Row>
                         <Col className="card-column d-flex justify-content-center">
                             <div className="cards d-flex">
                                 <div class="card-content-spacing card-bottom">
@@ -152,56 +207,6 @@ const Portfolio = () => {
                             </div>
                         </Col>
                     </Row>
-
-
-
-{/* Test Row */}
-                    {/* <Row>
-                    <Col className="card-column d-flex justify-content-center">
-                            <div className="cards d-flex">
-                                <div class="card-content-spacing card-bottom">
-                                        <Card.Body>
-                                            <Card.Title className="card-text-responsive"></Card.Title>
-                                            <Card.Text className="card-text-responsive">
-                                                
-                                            </Card.Text>
-                                            <Button href="" target="_blank" className="m-2 p-2">Deployed App</Button>
-                                            <Button href="" target="_blank" className="m-2 p-2">GitHub Repo</Button>
-                                        </Card.Body>
-                                </div>
-                                <div class="card-content-spacing card-cover">
-                                    <h2>
-                                        
-                                    </h2>
-                                </div>
-                            </div>
-                        </Col>
-                        <Col className="card-column d-flex justify-content-center">
-                            <div className="cards d-flex">
-                                <div class="card-content-spacing card-bottom">
-                                        <Card.Body>
-                                            <Card.Title>  </Card.Title>
-                                            <Card.Text>
-                                                
-                                            </Card.Text>
-                                            <Button href="" target="_blank" className="m-2 p-2">Deployed App</Button>
-                                            <Button href="" target="_blank" className="m-2 p-2">GitHub Repo</Button>
-                                        </Card.Body>
-                                </div>
-                                <div class="card-content-spacing card-cover">
-                                    <h2>
-                                        
-                                    </h2>
-                                </div>
-                            </div>
-                        </Col>
-                        
-                    </Row> */}
-
-
-
-
-
                 </Container>
             </div>    
 
